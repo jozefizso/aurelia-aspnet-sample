@@ -1,5 +1,4 @@
 import {Aurelia} from 'aurelia-framework'
-import * as Promise from 'bluebird';
 import environment from './environment';
 
 //Configure Bluebird Promises.
