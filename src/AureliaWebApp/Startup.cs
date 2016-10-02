@@ -37,6 +37,8 @@ namespace AureliaWebApp
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
+            app.UseFileServer(enableDirectoryBrowsing: false);
+
             app.UseMvc();
         }
     }
