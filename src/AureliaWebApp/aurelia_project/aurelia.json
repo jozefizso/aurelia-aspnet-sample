@@ -124,12 +124,6 @@
             "name": "aurelia-templating-router",
             "path": "../node_modules/aurelia-templating-router/dist/amd",
             "main": "aurelia-templating-router"
-          },
-          {
-            "name": "aurelia-testing",
-            "path": "../node_modules/aurelia-testing/dist/amd",
-            "main": "aurelia-testing",
-            "env": "dev"
           }
         ]
       }
