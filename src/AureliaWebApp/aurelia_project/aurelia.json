@@ -4,7 +4,7 @@
   "platform": {
     "id": "aspnetcore",
     "displayName": "ASP.NET Core",
-    "output": "wwwroot\\scripts",
+    "output": "wwwroot/scripts",
     "index": "index.html",
     "baseUrl": "scripts"
   },
@@ -15,19 +15,19 @@
     "dtsSource": [
       "./custom_typings/**/*.d.ts"
     ],
-    "source": "src\\**\\*.ts"
+    "source": "src/**/*.ts"
   },
   "markupProcessor": {
     "id": "none",
     "displayName": "None",
     "fileExtension": ".html",
-    "source": "src\\**\\*.html"
+    "source": "src/**/*.html"
   },
   "cssProcessor": {
     "id": "none",
     "displayName": "None",
     "fileExtension": ".css",
-    "source": "src\\**\\*.css"
+    "source": "src/**/*.css"
   },
   "editor": {
     "id": "visualstudio",
@@ -39,18 +39,18 @@
   },
   "paths": {
     "root": "src",
-    "resources": "src\\resources",
-    "elements": "src\\resources\\elements",
-    "attributes": "src\\resources\\attributes",
-    "valueConverters": "src\\resources\\value-converters",
-    "bindingBehaviors": "src\\resources\\binding-behaviors"
+    "resources": "src/resources",
+    "elements": "src/resources/elements",
+    "attributes": "src/resources/attributes",
+    "valueConverters": "src/resources/value-converters",
+    "bindingBehaviors": "src/resources/binding-behaviors"
   },
   "build": {
     "targets": [
       {
         "id": "aspnetcore",
         "displayName": "ASP.NET Core",
-        "output": "wwwroot\\scripts",
+        "output": "wwwroot/scripts",
         "index": "index.html",
         "baseUrl": "scripts"
       }
@@ -86,7 +86,7 @@
         "name": "vendor-bundle.js",
         "prepend": [
           "node_modules/bluebird/js/browser/bluebird.core.js",
-          "wwwroot\\scripts/require.js"
+          "wwwroot/scripts/require.js"
         ],
         "dependencies": [
           "aurelia-binding",
@@ -112,7 +112,7 @@
           "aurelia-templating-binding",
           {
             "name": "text",
-            "path": "../wwwroot\\scripts/text"
+            "path": "../wwwroot/scripts/text"
           },
           {
             "name": "aurelia-templating-resources",
