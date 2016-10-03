@@ -10,7 +10,10 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "lib": ["es2015", "dom"]
+    "lib": ["es2015", "dom"],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "exclude": [
     "aurelia_project",
@@ -19,7 +22,6 @@
   "filesGlob": [
     "./src/**/*.ts",
     "./test/**/*.ts",
-    "./typings/index.d.ts",
     "./custom_typings/**/*.d.ts"
   ],
   "atom": {
